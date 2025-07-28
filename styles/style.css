@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* ********************** MAIN SECTION Styles ************************ */
 main {
   padding: 100px;
   max-width: 768px;
@@ -38,6 +40,8 @@ h1 {
   border-radius: 8px;
   font-size: 1.1rem;
 }
+
+/* ******************* Button Design ************************** */
 .submit-button {
   margin-top: 10px;
   padding: 10px 40px;
@@ -61,6 +65,11 @@ h1 {
   font-size: 1.1rem;
   cursor: pointer;
 }
+.reset-button:hover {
+  background-color: rgba(0, 119, 119, 0.836);
+}
+
+/* ******************************* OUTPUT SECTION Styles ************************** */
 .output-filed {
   text-align: center;
   background-color: rgba(137, 43, 226, 0.062);
